@@ -11,3 +11,12 @@
     align-items: center;
     overflow: hidden;
 }
+
+.footerWrapper {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
