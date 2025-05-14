@@ -1,8 +1,14 @@
 .title {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-shrink: 0;
     width: 20%;
+    height: 25px;
+    background-color: yellow;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
 }
 
 .wrapper {
@@ -10,6 +16,8 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+    margin-top: 8px;
+
 }
 
 .footerWrapper {
@@ -19,4 +27,17 @@
     overflow: hidden;
     position: fixed;
     bottom: 0;
+    margin-bottom: 8px;
+}
+
+.bannerParallelogram {
+    height: inherit;
+    width: 10px;
+    transform: skew(30deg);
+    background: black;
+    margin: 0 8px;
+}
+
+.hatSVG {
+    fill: black;
 }
