@@ -1,6 +1,6 @@
 .title {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-shrink: 0;
     width: 20%;
@@ -17,7 +17,6 @@
     align-items: center;
     overflow: hidden;
     margin-top: 8px;
-
 }
 
 .footerWrapper {
@@ -30,7 +29,10 @@
     margin-bottom: 8px;
 }
 
-.bannerParallelogram {
+.bannerParallelogram_1,
+.bannerParallelogram_2,
+.bannerParallelogram_3,
+.bannerParallelogram_4 {
     height: inherit;
     width: 10px;
     transform: skew(30deg);
@@ -40,4 +42,55 @@
 
 .hatSVG {
     fill: black;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .bannerParallelogram_1,
+    .bannerParallelogram_2 {
+        display: none;
+    }
+
+    .title {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .bannerParallelogram_1,
+    .bannerParallelogram_2,
+    .bannerParallelogram_3 {
+        display: none;
+    }
+
+    .title {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .bannerParallelogram_1,
+    .bannerParallelogram_2,
+    .bannerParallelogram_3 {
+        display: none;
+    }
+
+    .bannerParallelogram_4 {
+        width: 5px;
+    }
+
+    .title {
+        font-size: .7rem;
+    }
+
+    .hatSVG {
+        display: none;
+    }
+
+    .footerWrapper {
+        display: none;
+    }
+
 }
