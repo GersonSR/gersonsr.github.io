@@ -1,3 +1,28 @@
+
+.rollingBanners {
+    height: 15vh;
+    position: relative;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.footerWrapper {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8px;
+}
+
 .title {
     display: flex;
     justify-content: space-evenly;
@@ -8,25 +33,8 @@
     background-color: #FFEE8C;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    will-change: transform;
 
-}
-
-.wrapper {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    margin-top: 8px;
-}
-
-.footerWrapper {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 8px;
 }
 
 .bannerParallelogram_1,
@@ -43,6 +51,7 @@
 .hatSVG {
     fill: black;
 }
+
 
 @media screen and (max-width: 1024px) {
 
@@ -69,7 +78,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 479px) {
 
     .bannerParallelogram_1,
     .bannerParallelogram_2,
