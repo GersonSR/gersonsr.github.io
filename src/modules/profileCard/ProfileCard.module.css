@@ -1,0 +1,47 @@
+.profileContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 4fr 1fr;
+    border-radius: inherit;
+    overflow: hidden;
+}
+
+.imageSection {
+    grid-row: span 1;
+    grid-column: span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationCenter {
+    grid-row: span 1;
+    grid-column: span 1;
+    display: grid;
+    grid-auto-rows: 2rem;
+}
+
+.informationLinks {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.contactMe {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 1.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: gray;
+}
