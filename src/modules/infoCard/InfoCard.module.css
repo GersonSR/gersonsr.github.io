@@ -36,3 +36,10 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 479px) {
+    .mainCardBody {
+        margin: 0 10px;
+    }
+}
