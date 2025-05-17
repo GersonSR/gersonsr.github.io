@@ -31,19 +31,25 @@ function ProfileCard() {
         </div>
       </div>
       <div className={`${styles.informationCenter}`}>
-        <div>
-          <span>(Aspiring)</span> Full Stack Dev
+        <div className={`${styles.informationMe}`}>
+          <div className={`${styles.informationMe__title}`}>
+            <span>(Aspiring)</span> Full Stack Dev
+          </div>
+          <div className={`${styles.informationMe__name}`}>
+            Gerson Salmeron Rubio
+          </div>
+          <div className={`${styles.informationMe__url}`}>
+            <a
+              href="https://www.gersonsr.github.io"
+              target="_blank"
+              className={`${styles.link}`}
+            >
+              gersonsr.github.io
+            </a>
+          </div>
         </div>
-        <div>Gerson Salmeron Rubio</div>
-        <a
-          href="https://www.gersonsr.github.io"
-          target="_blank"
-          className={`${styles.link}`}
-        >
-          <div>gersonsr.github.io</div>
-        </a>
         <div className={`${styles.informationLinks}`}>
-          <div>
+          <div className={`${styles.informationLink}`}>
             <a
               href="https://www.linkedin.com/in/gerson-a-salmeron-rubio-a37205100/"
               target="_blank"
@@ -57,7 +63,7 @@ function ProfileCard() {
               <span>LinkedIn</span>
             </a>
           </div>
-          <div>
+          <div className={`${styles.informationLink}`}>
             <a
               href="https://github.com/GersonSR"
               target="_blank"
