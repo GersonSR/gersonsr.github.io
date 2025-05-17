@@ -1,0 +1,38 @@
+.mainCardBody {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 
+        0px 1px 10px rgba(0, 0, 0, 0.459);
+        /* -3px -3px 10px rgb(255, 255, 255); */
+    background-color: rgba(241, 231, 254, 1);
+
+}
+
+.innerCard {
+    color: #000;
+    width: 100%;
+    height: 80%;
+    /* margin-top: 10px; */
+    border-radius: 0 0 10% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: #000 1px solid; */
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+    background-color: white;
+}
+
+.cardSubtitle {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
