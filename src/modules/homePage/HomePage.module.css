@@ -1,3 +1,7 @@
+.homePageContainer {
+    visibility: 0;
+}
+
 .rollingBanners {
     height: 15vh;
     position: relative;

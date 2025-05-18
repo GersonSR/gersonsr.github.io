@@ -11,6 +11,7 @@ function HomePage() {
   const bottomContainer = React.createRef<HTMLInputElement>();
 
   useGSAP(() => {
+    gsap.from(".pageContainer", {autoAlpha: 1})
     let mm = gsap.matchMedia();
     gsap.set("#wrapper", { rotate: -6 });
     gsap.set("#footer-wrapper", { rotate: 5 });
@@ -42,7 +43,7 @@ function HomePage() {
   });
 
   return (
-    <>
+    <div className={`${styles.homePageContainer} pageContainer`}>
       <header>
         <div className={`${styles.rollingBanners} banner`}>
           <div id="wrapper" className={styles.wrapper}>
@@ -282,7 +283,7 @@ function HomePage() {
       <section className={styles.mainPageSection}>
         <InfoCard />
       </section>
-    </>
+    </div>
   );
 }
 
