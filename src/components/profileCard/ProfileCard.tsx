@@ -25,7 +25,7 @@ function ProfileCard() {
           <Avatar
             name={randomString}
             variant="beam"
-            size={80}
+            size={85}
             colors={["#0a0310", "#49007e", "#ff005b", "#ff7d10", "#ffb238"]}
           />
         </div>

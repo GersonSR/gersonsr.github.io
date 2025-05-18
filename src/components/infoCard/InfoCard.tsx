@@ -12,7 +12,7 @@ function InfoCard() {
                     <ProfileCard />
                 </div>
                 <div className={`${styles.cardSubtitle}`}>
-                    <p>This page is under renovation!</p>
+                    <p>This page is undergoing renovation!</p>
                 </div>
             </div>
         </>
