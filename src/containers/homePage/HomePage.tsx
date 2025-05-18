@@ -33,8 +33,8 @@ function HomePage() {
     const topBoxes = gsap.utils.toArray("#wrapper > .box");
     const bottomBoxes = gsap.utils.toArray("#footer-wrapper > .box");
 
-    const loop = horizontalLoop(topBoxes, { repeat: -1, speed: 0.8 });
-    const bottomLoop = horizontalLoop(bottomBoxes, {
+    horizontalLoop(topBoxes, { repeat: -1, speed: 0.8 });
+    horizontalLoop(bottomBoxes, {
       repeat: -1,
       reversed: true,
       paused: true,

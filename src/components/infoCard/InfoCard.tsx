@@ -1,4 +1,3 @@
-import React from "react";
 import styles from '../../modules/infoCard/InfoCard.module.css'
 import ProfileCard from "../profileCard/ProfileCard";
 
